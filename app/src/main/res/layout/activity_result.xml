@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultActivity"
+    android:orientation="vertical"
+    android:background="@drawable/bg2">
+
+   <TextView
+       android:id="@+id/basari"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Tebrikler"
+       android:gravity="center"
+       android:textSize="25sp"
+       android:layout_marginBottom="22dp"
+       android:textStyle="bold"
+       android:textColor="#FF9800"
+       android:layout_marginTop="50dp"/>
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/trophy" />
+
+    <TextView
+        android:id="@+id/isimtxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="isim"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+
+        android:textStyle="bold"
+       />
+
+    <TextView
+        android:id="@+id/sonuctxt"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="x kadar soruda x kadar dogru bildiniz"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+
+        />
+
+    <Button
+        android:id="@+id/listbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:textColor="@color/white"
+
+        android:background="@drawable/mainbutton"
+        android:text="Sonuclari gor" />
+
+
+</LinearLayout>

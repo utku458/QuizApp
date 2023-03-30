@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backgrouund"
+    tools:context=".QuizScreen">
+
+
+
+
+    <TextView
+        
+        android:id="@+id/questiontv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SORU"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="20dp"/>
+
+
+
+    <ProgressBar
+
+        android:layout_margin="20dp"
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:progressDrawable="@drawable/progressbar_design"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/opt1tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="cevap1"
+        android:background="@drawable/custombtn"
+        android:padding="16dp"/>
+
+    <Button
+        android:id="@+id/opt2tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/custombtn"
+        android:padding="16dp"
+        android:text="cevap2" />
+
+    <Button
+        android:id="@+id/opt3tv"
+        android:background="@drawable/custombtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="cevap3"
+        android:padding="16dp"/>
+    <Button
+        android:id="@+id/opt4tv"
+        android:background="@drawable/custombtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="cevap4"
+        android:padding="16dp"/>
+
+
+    <Button
+        android:id="@+id/submitbtn"
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/mainbutton"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textColor="@color/white"
+        android:text="Submit"
+
+        />
+
+
+
+
+</LinearLayout>

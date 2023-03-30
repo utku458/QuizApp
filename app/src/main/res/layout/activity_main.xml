@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Hosgeldiniz"
+                android:textColor="#363A43"
+                android:textSize="30sp"
+                android:layout_margin="35dp"
+                android:padding="5dp"
+
+                android:textStyle="bold"></TextView>
+
+
+
+
+                <EditText
+
+                    android:id="@+id/edttxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Name"
+                    android:background="@drawable/edt_style"
+                    android:drawableLeft="@drawable/baseline_account_circle_24"
+                    android:paddingLeft="10dp"
+                    android:padding="12dp"
+                    android:layout_margin="30dp"
+                    android:layout_gravity="center"
+
+
+
+
+                    ></EditText>
+
+
+
+
+
+
+
+
+
+    <Button
+        android:id="@+id/girisbtn"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="26dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginBottom="208dp"
+        android:padding="14dp"
+        android:text="Giris"
+        android:background="@drawable/mainbutton"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+
+        app:layout_constraintStart_toStartOf="parent"></Button>
+
+
+
+</LinearLayout>
